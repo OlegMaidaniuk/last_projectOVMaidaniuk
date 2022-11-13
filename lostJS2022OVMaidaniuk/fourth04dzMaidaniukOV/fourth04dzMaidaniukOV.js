@@ -1,22 +1,47 @@
-// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
-
-
-// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
-
+// - За допомогою циклу for і document.write() вивести 10 блоків div
+// з довільним текстом всередині
+//
+// for (let i = 0; i < 10; i++) {
+//   document.write(`<div>hello</div>`)
+// }
+//
+// // - За допомогою циклу for і document.write()
+// // вивести 10 блоків div c довільним текстом і індексом всередині
+//
+// for (let i = 0; i < 10; i++) {
+//   // document.write(`<div>hello ${i}</div>`)
+//   document.write('<div>hello ' + i + '</div>')
+// }
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+// let a = 0;
+// while (a < 20) {
+//   document.write(`<h1>tost</h1>`)
+//   a++;
+// }
 
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-
-
+//
+// let a = 0;
+// while (a < 20) {
+//   document.write(`<h1>tost${a+1}</h1>`)
+//   a++;
+// }
 
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
 
 // Масив:
 //
-//   let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+// document.write(`<ul>`)
+// for (const item of listOfItems) {
+//     document.write(`<li>${item}</li>`)
+// }
+// document.write(`</ul>`)
+//
+
 //
 // ШАБЛОН:
 //   <ul>
@@ -33,10 +58,11 @@
 //
 // -----------------------------------------------
 //
-//   Використовуючи данні з масиву, за допомоги document.write та циклу
+// Використовуючи данні з масиву, за допомоги document.write та
+// циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
 // Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
-//
+
 // let products = [
 //   {
 //     title: 'milk',
@@ -59,7 +85,15 @@
 //     image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
 //   },
 // ];
-//
+// for (const product of products) {
+//   document.write(`
+//   <div class="product-card">
+//    <h3 class="product-title">${product.price} - PRICE</h3>
+//  <img src=${product.image} alt="${product.title}" class="product-image">
+//  </div>
+//   `)
+// }
+
 // ШАБЛОН
 // <div class="product-card">
 //   <h3 class="product-title">TITLE. Price - PRICE</h3>
@@ -88,3 +122,26 @@
 //   - користувачів зі статусом true
 // - користувачів зі статусом false
 // - користувачів які старші за 30 років
+//
+// for (const user of users) {
+//   if (user.status) {
+//     console.log(user);
+//   }
+  // for (const userkey in user) {
+  //   console.log(user);
+  // }
+}
+//
+// console.log("----------------------------");
+// for (const user of users) {
+//   if (!user.status){
+//     console.log(user);}
+// }
+// console.log("----------------------------");
+//
+// for (const user of users) {
+//   if (user.age > 30)
+//   {
+//     console.log(user);
+//   }
+// }
