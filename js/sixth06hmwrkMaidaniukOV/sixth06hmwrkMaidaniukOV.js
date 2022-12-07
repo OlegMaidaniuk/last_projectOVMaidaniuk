@@ -1,25 +1,73 @@
 // - Знайти та вивести довижину настипних стрінгових значень
-// 'hello world', 'lorem ipsum', 'javascript is cool'
+
+let str = 'hello world';
+console.log(str.length);
+
+let lor = 'lorem ipsum';
+console.log(lor.length);
+
+let javascriptIsCool = 'javascript is cool';
+console.log(javascriptIsCool.length);
+
 // - Перевести до великого регістру наступні стрінгові значення
-// 'hello world', 'lorem ipsum', 'javascript is cool'
+// , ,
+let helloWorld = 'hello world';
+console.log(helloWorld.toUpperCase());
+let loremIpsum = 'lorem ipsum';
+console.log(loremIpsum.toUpperCase());
+let javascriptIsCool1 = 'javascript is cool';
+console.log(javascriptIsCool1.toUpperCase());
+
 // - Перевести до нижнього регістру настипні стрінгові значення
-// 'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
-// - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
-//
-//
+let helloworld = 'HELLO WORLD';
+console.log(helloworld.toLowerCase());
+
+let loremipsu = 'LOREM IPSUM';
+console.log(loremipsu.toLowerCase());
+
+let javascriptiscool = 'JAVASCRIPT IS COOL';
+console.log(javascriptiscool.toLowerCase());
+
+
+// - Є "брудна" стрінга  . Почистити її від зайвих пробілів.
+let str4 = ' dirty string   '
+console.log(str4.trim());
+
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
-//   let str = 'Ревуть воли як ясла повні';
-// let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
 //
-//
-//
-// - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
-// - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
-//   let nums = [11,21,3];
+// ; ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+
+let stra = 'Ревуть воли як ясла повні';
+let strings = stra.split(' ');
+console.log(strings);
+
+// - є масив чисел  . за допомоги map та колбеку перетворити всі об'єкти
+// в масиві на стрінгові.
+let numbers = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
+// let strings1 = numbers.map(value => value.toString());
+// let strings1 = numbers.map(value =>String(value));
+let strings1 = numbers.map(value => value + '');
+console.log(strings1);
+
+// - створити функцію , яка прймає масив чисел, та сортує
+// його від більшого до меньшого,
+// або навпаки в залежності від значення аргументу direction.
+let nums = [11, 21, 3];
+const sortNums = (direction, nums) => {
+  if (direction === 'ascending') {
+    nums.sort((a, b) => a - b)
+  } else if (direction === 'descending') {
+    nums.sort((a, b) => b - a);
+  }
+  return nums;
+}
+console.log(sortNums('ascending', nums));
+console.log(sortNums('descending', nums));
+
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
-//
-//
+
+
 // - є масив
 // let coursesAndDurationArray = [
 //   {title: 'JavaScript Complex', monthDuration: 5},
