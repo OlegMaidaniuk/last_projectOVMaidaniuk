@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67e06a2a-ed12-4b58-bf9d-5bcad09664b9" name="Changes" comment="  fff kk">
-      <change afterPath="$PROJECT_DIR$/js/eights08hwJSMaidaniukOV/eights08hwJSMaidaniukOV.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/eights08hwJSMaidaniukOV/eights08hwJSMaidaniukOV.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lostJS2022OVMaidaniuk/ninth09HWjsMaidaniukOV/ninth09HWjsMaidaniukOV.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lostJS2022OVMaidaniuk/ninth09HWjsMaidaniukOV/ninth09HWjsMaidaniukOV.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="67e06a2a-ed12-4b58-bf9d-5bcad09664b9" name="Changes" comment="9  fff kk">
+      <change afterPath="$PROJECT_DIR$/lostJS2022OVMaidaniuk/tens10HWMaidaniukOV/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lostJS2022OVMaidaniuk/tens10HWMaidaniukOV/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lostJS2022OVMaidaniuk/tens10HWMaidaniukOV/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lostJS2022OVMaidaniuk/tens10HWMaidaniukOV/main1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -64,6 +63,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\last_projectOVMaidaniuk\lostJS2022OVMaidaniuk" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -115,7 +119,10 @@
       <workItem from="1670745390868" duration="29067000" />
       <workItem from="1671106892621" duration="5582000" />
       <workItem from="1671193415985" duration="5435000" />
-      <workItem from="1671274818374" duration="10786000" />
+      <workItem from="1671274818374" duration="11493000" />
+      <workItem from="1671362251102" duration="6779000" />
+      <workItem from="1671440122573" duration="8738000" />
+      <workItem from="1671528653039" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="init save">
       <created>1667761471199</created>
@@ -187,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670392903224</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="9  fff kk">
+      <created>1671304273327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671304273327</updated>
+    </task>
+    <task id="LOCAL-00012" summary="9  fff kk">
+      <created>1671304312170</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671304312170</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +231,8 @@
     <MESSAGE value="init save +pvv" />
     <MESSAGE value="  fff" />
     <MESSAGE value="  fff kk" />
-    <option name="LAST_COMMIT_MESSAGE" value="  fff kk" />
+    <MESSAGE value="9  fff kk" />
+    <option name="LAST_COMMIT_MESSAGE" value="9  fff kk" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
